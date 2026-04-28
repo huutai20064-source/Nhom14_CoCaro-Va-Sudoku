@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Nhom14_CoCaro_Va_Sudoku
@@ -11,37 +10,40 @@ namespace Nhom14_CoCaro_Va_Sudoku
             InitializeComponent();
         }
 
-        // ================= OPEN CARO =================
         private void BtnCaro_Click(object sender, EventArgs e)
         {
-            FormCaro f = new FormCaro();
-            f.Show();
+            HienGame(new CaroControl());
         }
 
-        // ================= OPEN SUDOKU =================
         private void BtnSudoku_Click(object sender, EventArgs e)
         {
-            FormSudoku f = new FormSudoku();
-            f.Show();
+            HienGame(new SudokuControl());
         }
 
-        // ================= OPTIONAL: EFFECT (NHẸ) =================
-        protected override void OnLoad(EventArgs e)
+        void HienGame(UserControl game)
         {
-            base.OnLoad(e);
+            pnlContainer.Controls.Clear();
 
-            this.Opacity = 0;
-            Timer t = new Timer();
-            t.Interval = 10;
+            game.Dock = DockStyle.Fill;
+            pnlContainer.Controls.Add(game);
 
-            t.Tick += (s, ev) =>
-            {
-                this.Opacity += 0.05;
-                if (this.Opacity >= 1)
-                    t.Stop();
-            };
+            pnlContainer.Controls.Add(btnHome);
+            btnHome.BringToFront();
 
-            t.Start();
+            pnlContainer.Visible = true;
+
+            lblTitle.Visible = false;
+            btnCaro.Visible = false;
+            btnSudoku.Visible = false;
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            pnlContainer.Visible = false;
+
+            lblTitle.Visible = true;
+            btnCaro.Visible = true;
+            btnSudoku.Visible = true;
         }
     }
 }
