@@ -1,0 +1,12 @@
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\bin\Debug\Nhom14_CoCaro-Va-Sudoku.exe.config
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\bin\Debug\Nhom14_CoCaro-Va-Sudoku.exe
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\bin\Debug\Nhom14_CoCaro-Va-Sudoku.pdb
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.csproj.AssemblyReference.cache
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.FormMain.resources
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.Properties.Resources.resources
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.csproj.GenerateResource.cache
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.csproj.CoreCompileInputs.cache
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro-Va-Sudoku.exe
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro-Va-Sudoku.pdb
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.SudokuControl.resources
+D:\Nhom14_CoCaro-Va-Sudoku\Nhom14_CoCaro-Va-Sudoku\obj\Debug\Nhom14_CoCaro_Va_Sudoku.CaroControl.resources
